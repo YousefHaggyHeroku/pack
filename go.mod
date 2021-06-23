@@ -1,4 +1,4 @@
-module github.com/buildpacks/pack
+module github.com/YousefHaggyHeroku/pack
 
 require (
 	github.com/BurntSushi/toml v0.3.1
