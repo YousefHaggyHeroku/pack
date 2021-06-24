@@ -7,11 +7,11 @@ import (
 	"github.com/buildpacks/lifecycle/platform"
 	"github.com/pkg/errors"
 
+	"github.com/YousefHaggyHeroku/pack/config"
 	"github.com/YousefHaggyHeroku/pack/internal/build"
 	"github.com/YousefHaggyHeroku/pack/internal/builder"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/config"
 )
 
 // RebaseOptions is a configuration struct that controls image rebase behavior.

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func CreateBuildpackTar(t *testing.T, tmpDir string, descriptor dist.BuildpackDescriptor) string {

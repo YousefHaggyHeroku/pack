@@ -17,10 +17,10 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
+	pubcfg "github.com/YousefHaggyHeroku/pack/config"
 	"github.com/YousefHaggyHeroku/pack/internal/image"
 	"github.com/YousefHaggyHeroku/pack/internal/logging"
-	pubcfg "github.com/buildpacks/pack/config"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 var docker client.CommonAPIClient

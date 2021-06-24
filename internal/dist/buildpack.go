@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/pkg/archive"
+	"github.com/YousefHaggyHeroku/pack/pkg/archive"
 )
 
 const AssumedBuildpackAPIVersion = "0.1"

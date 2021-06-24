@@ -31,6 +31,7 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
+	"github.com/YousefHaggyHeroku/pack/config"
 	"github.com/YousefHaggyHeroku/pack/internal/blob"
 	"github.com/YousefHaggyHeroku/pack/internal/build"
 	"github.com/YousefHaggyHeroku/pack/internal/builder"
@@ -41,8 +42,7 @@ import (
 	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	rg "github.com/YousefHaggyHeroku/pack/internal/registry"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/config"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestBuild(t *testing.T) {

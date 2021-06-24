@@ -17,7 +17,7 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/cache"
 	"github.com/YousefHaggyHeroku/pack/internal/paths"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 const (
@@ -345,7 +345,7 @@ func (l *LifecycleExecution) newAnalyze(repoName, networkMode string, publish bo
 		return phaseFactory.New(configProvider), nil
 	}
 
-	// TODO: when platform API 0.2 is no longer supported we can delete this code: https://github.com/buildpacks/pack/issues/629.
+	// TODO: when platform API 0.2 is no longer supported we can delete this code: https://github.com/YousefHaggyHeroku/pack/issues/629.
 	configProvider := NewPhaseConfigProvider(
 		"analyzer",
 		l,

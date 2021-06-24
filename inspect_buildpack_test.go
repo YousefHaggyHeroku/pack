@@ -20,7 +20,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/blob"
 	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
-	"github.com/buildpacks/pack/pkg/archive"
+	"github.com/YousefHaggyHeroku/pack/pkg/archive"
 
 	"github.com/buildpacks/imgutil/fakes"
 	"github.com/buildpacks/lifecycle/api"
@@ -29,13 +29,13 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
+	"github.com/YousefHaggyHeroku/pack/config"
 	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	"github.com/YousefHaggyHeroku/pack/internal/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/testmocks"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/config"
-	h "github.com/buildpacks/pack/testhelpers"
-	"github.com/buildpacks/pack/testmocks"
 )
 
 const buildpackageMetadataTag = `{

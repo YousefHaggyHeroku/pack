@@ -11,7 +11,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestGetLocatorType(t *testing.T) {

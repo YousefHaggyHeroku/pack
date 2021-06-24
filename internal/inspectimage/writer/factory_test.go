@@ -6,7 +6,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/inspectimage/writer"
 
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 
 	"github.com/heroku/color"
 	"github.com/sclevine/spec"

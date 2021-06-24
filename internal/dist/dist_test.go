@@ -9,7 +9,7 @@ import (
 	"github.com/sclevine/spec/report"
 
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestDist(t *testing.T) {

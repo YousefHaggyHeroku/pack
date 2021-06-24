@@ -11,7 +11,7 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/YousefHaggyHeroku/pack/internal/stringset"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 var mirrors []string

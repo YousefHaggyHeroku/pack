@@ -6,11 +6,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	pubcfg "github.com/buildpacks/pack/config"
+	pubcfg "github.com/YousefHaggyHeroku/pack/config"
 
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func ConfigPullPolicy(logger logging.Logger, cfg config.Config, cfgPath string) *cobra.Command {

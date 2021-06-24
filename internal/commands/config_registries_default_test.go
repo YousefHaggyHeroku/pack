@@ -16,7 +16,7 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestConfigRegistriesDefault(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 var suggestedBuilderString = "For suggested builders, run `pack builder suggest`."

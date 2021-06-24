@@ -16,13 +16,13 @@ import (
 
 	"github.com/golang/mock/gomock"
 
+	"github.com/YousefHaggyHeroku/pack/config"
 	cfg "github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/YousefHaggyHeroku/pack/internal/logging"
 	"github.com/YousefHaggyHeroku/pack/internal/registry"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/testmocks"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/config"
-	h "github.com/buildpacks/pack/testhelpers"
-	"github.com/buildpacks/pack/testmocks"
 )
 
 func TestPullBuildpack(t *testing.T) {

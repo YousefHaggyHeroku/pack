@@ -1,10 +1,10 @@
 # pack - Buildpack CLI
 
-[![Build results](https://github.com/buildpacks/pack/workflows/build/badge.svg)](https://github.com/buildpacks/pack/actions)
+[![Build results](https://github.com/YousefHaggyHeroku/pack/workflows/build/badge.svg)](https://github.com/YousefHaggyHeroku/pack/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/buildpacks/pack)](https://goreportcard.com/report/github.com/buildpacks/pack)
 [![codecov](https://codecov.io/gh/buildpacks/pack/branch/main/graph/badge.svg)](https://codecov.io/gh/buildpacks/pack)
 [![GoDoc](https://godoc.org/github.com/buildpacks/pack?status.svg)](https://godoc.org/github.com/buildpacks/pack)
-[![GitHub license](https://img.shields.io/github/license/buildpacks/pack)](https://github.com/buildpacks/pack/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/buildpacks/pack)](https://github.com/YousefHaggyHeroku/pack/blob/main/LICENSE)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4748/badge)](https://bestpractices.coreinfrastructure.org/projects/4748)
 [![Slack](https://img.shields.io/badge/slack-join-ff69b4.svg?logo=slack)](https://slack.buildpacks.io/)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/buildpacks/pack)

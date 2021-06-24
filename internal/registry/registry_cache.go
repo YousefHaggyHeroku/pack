@@ -20,7 +20,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 const DefaultRegistryURL = "https://github.com/buildpacks/registry-index"

@@ -15,7 +15,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/build"
 	"github.com/YousefHaggyHeroku/pack/internal/builder"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func Report(logger logging.Logger, version, cfgPath string) *cobra.Command {

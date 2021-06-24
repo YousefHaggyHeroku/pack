@@ -16,7 +16,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/paths"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"github.com/buildpacks/pack"
 
 	"github.com/YousefHaggyHeroku/pack/internal/config"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 const inspectBuildpackTemplate = `

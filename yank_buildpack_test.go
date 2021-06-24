@@ -11,7 +11,7 @@ import (
 
 	ifakes "github.com/YousefHaggyHeroku/pack/internal/fakes"
 	"github.com/YousefHaggyHeroku/pack/internal/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestYankBuildpack(t *testing.T) {

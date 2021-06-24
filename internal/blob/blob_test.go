@@ -9,7 +9,7 @@ import (
 	"github.com/sclevine/spec/report"
 
 	"github.com/YousefHaggyHeroku/pack/internal/blob"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestBlob(t *testing.T) {

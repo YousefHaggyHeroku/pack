@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	pubbldr "github.com/buildpacks/pack/builder"
+	pubbldr "github.com/YousefHaggyHeroku/pack/builder"
 
-	"github.com/buildpacks/pack/config"
+	"github.com/YousefHaggyHeroku/pack/config"
 
 	"github.com/buildpacks/imgutil/fakes"
 	"github.com/buildpacks/lifecycle/api"
@@ -22,8 +22,8 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	"github.com/YousefHaggyHeroku/pack/internal/image"
 	"github.com/YousefHaggyHeroku/pack/internal/logging"
-	h "github.com/buildpacks/pack/testhelpers"
-	"github.com/buildpacks/pack/testmocks"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/testmocks"
 )
 
 func TestInspectBuilder(t *testing.T) {

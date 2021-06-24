@@ -26,7 +26,7 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/build"
 	"github.com/YousefHaggyHeroku/pack/internal/build/fakes"
 	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 // TestLifecycleExecution are unit tests that test each possible phase to ensure they are executed with the proper parameters

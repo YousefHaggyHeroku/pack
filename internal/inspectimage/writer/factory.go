@@ -5,8 +5,8 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/inspectimage"
 
+	"github.com/YousefHaggyHeroku/pack/logging"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/logging"
 
 	"github.com/YousefHaggyHeroku/pack/internal/style"
 )

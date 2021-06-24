@@ -14,8 +14,8 @@ import (
 	"github.com/sclevine/spec/report"
 
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
-	"github.com/buildpacks/pack/pkg/archive"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/pkg/archive"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestBuildpack(t *testing.T) {

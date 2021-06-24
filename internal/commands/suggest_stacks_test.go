@@ -11,7 +11,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/commands"
 	"github.com/YousefHaggyHeroku/pack/internal/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestSuggestStacksCommand(t *testing.T) {

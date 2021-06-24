@@ -16,8 +16,8 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/inspectimage"
 	"github.com/YousefHaggyHeroku/pack/internal/inspectimage/writer"
 	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 	"github.com/buildpacks/pack"
-	h "github.com/buildpacks/pack/testhelpers"
 )
 
 func TestStructuredBOMFormat(t *testing.T) {

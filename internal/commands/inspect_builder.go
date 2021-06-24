@@ -5,10 +5,10 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/builder/writer"
 
+	"github.com/YousefHaggyHeroku/pack/builder"
 	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/logging"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/builder"
-	"github.com/buildpacks/pack/logging"
 )
 
 // Deprecated: Use builder inspect instead.

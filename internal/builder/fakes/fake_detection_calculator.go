@@ -1,8 +1,8 @@
 package fakes
 
 import (
+	"github.com/YousefHaggyHeroku/pack/builder"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
-	"github.com/buildpacks/pack/builder"
 )
 
 type FakeDetectionCalculator struct {

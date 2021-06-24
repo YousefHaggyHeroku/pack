@@ -14,7 +14,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/blob"
 	"github.com/YousefHaggyHeroku/pack/internal/builder"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestLifecycle(t *testing.T) {

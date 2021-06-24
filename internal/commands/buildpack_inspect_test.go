@@ -23,9 +23,9 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/logging"
-	h "github.com/buildpacks/pack/testhelpers"
 )
 
 const complexOutputSection = `Stacks:

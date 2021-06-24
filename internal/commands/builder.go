@@ -5,7 +5,7 @@ import (
 
 	builderwriter "github.com/YousefHaggyHeroku/pack/internal/builder/writer"
 	"github.com/YousefHaggyHeroku/pack/internal/config"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func NewBuilderCommand(logger logging.Logger, cfg config.Config, client PackClient) *cobra.Command {

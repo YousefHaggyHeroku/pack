@@ -10,7 +10,7 @@ import (
 	ifakes "github.com/YousefHaggyHeroku/pack/internal/fakes"
 	"github.com/YousefHaggyHeroku/pack/internal/logging"
 	"github.com/YousefHaggyHeroku/pack/internal/registry"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 
 	"github.com/heroku/color"
 	"github.com/sclevine/spec"

@@ -15,8 +15,8 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	"github.com/YousefHaggyHeroku/pack/internal/fakes"
-	"github.com/buildpacks/pack/pkg/archive"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/pkg/archive"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestOCILayoutPackage(t *testing.T) {

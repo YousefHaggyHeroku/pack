@@ -11,7 +11,7 @@ import (
 	imgutil "github.com/buildpacks/imgutil"
 	gomock "github.com/golang/mock/gomock"
 
-	config "github.com/buildpacks/pack/config"
+	config "github.com/YousefHaggyHeroku/pack/config"
 )
 
 // MockImageFetcher is a mock of ImageFetcher interface.

@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/YousefHaggyHeroku/pack/internal/config"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func NewConfigCommand(logger logging.Logger, cfg config.Config, cfgPath string, client PackClient) *cobra.Command {

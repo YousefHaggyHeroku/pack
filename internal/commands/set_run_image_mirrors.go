@@ -5,7 +5,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 // Deprecated: Use `pack config run-image-mirrors add` instead

@@ -14,8 +14,8 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/commands"
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
-	"github.com/buildpacks/pack/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestSetRunImageMirrorsCommand(t *testing.T) {

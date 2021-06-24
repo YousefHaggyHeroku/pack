@@ -8,7 +8,7 @@ import (
 	"github.com/sclevine/spec/report"
 
 	"github.com/YousefHaggyHeroku/pack/internal/registry"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestGithub(t *testing.T) {

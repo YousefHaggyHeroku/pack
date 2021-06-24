@@ -6,7 +6,7 @@ import (
 	"github.com/sclevine/spec"
 
 	"github.com/YousefHaggyHeroku/pack/internal/slices"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestMapString(t *testing.T) {

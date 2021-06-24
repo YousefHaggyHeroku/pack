@@ -14,7 +14,7 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/builder"
 	"github.com/YousefHaggyHeroku/pack/internal/builder/fakes"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestLabelManager(t *testing.T) {

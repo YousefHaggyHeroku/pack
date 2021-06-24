@@ -11,8 +11,8 @@ import (
 
 	strs "github.com/YousefHaggyHeroku/pack/internal/strings"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/logging"
 )
 
 type HumanReadable struct{}

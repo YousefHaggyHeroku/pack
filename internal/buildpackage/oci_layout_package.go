@@ -15,7 +15,7 @@ import (
 	blob2 "github.com/YousefHaggyHeroku/pack/internal/blob"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/pkg/archive"
+	"github.com/YousefHaggyHeroku/pack/pkg/archive"
 )
 
 // IsOCILayoutBlob checks whether a blob is in OCI layout format.

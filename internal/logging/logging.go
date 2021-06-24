@@ -12,7 +12,7 @@ import (
 	"golang.org/x/crypto/ssh/terminal"
 
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 const (

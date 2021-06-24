@@ -11,14 +11,14 @@ import (
 	"github.com/sclevine/spec/report"
 	"github.com/spf13/cobra"
 
+	pubbldpkg "github.com/YousefHaggyHeroku/pack/buildpackage"
+	pubcfg "github.com/YousefHaggyHeroku/pack/config"
 	"github.com/YousefHaggyHeroku/pack/internal/commands"
 	"github.com/YousefHaggyHeroku/pack/internal/commands/fakes"
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
-	pubbldpkg "github.com/buildpacks/pack/buildpackage"
-	pubcfg "github.com/buildpacks/pack/config"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestPackageBuildpackCommand(t *testing.T) {

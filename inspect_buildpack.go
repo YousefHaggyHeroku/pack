@@ -9,10 +9,10 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/style"
 
+	"github.com/YousefHaggyHeroku/pack/config"
 	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
 	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
-	"github.com/buildpacks/pack/config"
 )
 
 type BuildpackInfo struct {

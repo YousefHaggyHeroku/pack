@@ -11,8 +11,8 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/slices"
 	"github.com/YousefHaggyHeroku/pack/internal/stringset"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
-	"github.com/buildpacks/pack/registry"
+	"github.com/YousefHaggyHeroku/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/registry"
 )
 
 var (

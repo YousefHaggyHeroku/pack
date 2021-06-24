@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 
 	"github.com/YousefHaggyHeroku/pack/internal/commands"
 
@@ -15,7 +15,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func TestListRegistries(t *testing.T) {

@@ -16,8 +16,8 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestUntrustBuilderCommand(t *testing.T) {

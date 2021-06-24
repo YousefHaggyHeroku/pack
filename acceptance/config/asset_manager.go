@@ -11,12 +11,12 @@ import (
 	"regexp"
 	"testing"
 
+	acceptanceOS "github.com/YousefHaggyHeroku/pack/acceptance/os"
 	"github.com/YousefHaggyHeroku/pack/internal/blob"
 	"github.com/YousefHaggyHeroku/pack/internal/builder"
 	"github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/YousefHaggyHeroku/pack/internal/style"
-	acceptanceOS "github.com/buildpacks/pack/acceptance/os"
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 const (
@@ -354,7 +354,7 @@ func (b assetManagerBuilder) buildPack(compileVersion string) string {
 	b.assert.Nil(err)
 
 	cmd := exec.Command("go", "build",
-		"-ldflags", fmt.Sprintf("-X 'github.com/buildpacks/pack/cmd.Version=%s'", compileVersion),
+		"-ldflags", fmt.Sprintf("-X 'github.com/YousefHaggyHeroku/pack/cmd.Version=%s'", compileVersion),
 		"-o", packPath,
 		"./cmd/pack",
 	)
