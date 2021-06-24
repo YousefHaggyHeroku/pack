@@ -1,7 +1,7 @@
 package fakes
 
 import (
-	"github.com/buildpacks/pack/internal/builder/writer"
+	"github.com/YousefHaggyHeroku/pack/internal/builder/writer"
 )
 
 type FakeBuilderWriterFactory struct {

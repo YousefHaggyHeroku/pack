@@ -7,10 +7,10 @@ import (
 
 	"github.com/buildpacks/imgutil/fakes"
 
-	ifakes "github.com/buildpacks/pack/internal/fakes"
-	"github.com/buildpacks/pack/internal/logging"
-	"github.com/buildpacks/pack/internal/registry"
-	h "github.com/buildpacks/pack/testhelpers"
+	ifakes "github.com/YousefHaggyHeroku/pack/internal/fakes"
+	"github.com/YousefHaggyHeroku/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/registry"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 
 	"github.com/heroku/color"
 	"github.com/sclevine/spec"

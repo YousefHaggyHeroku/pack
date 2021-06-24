@@ -4,18 +4,18 @@ import (
 	"bytes"
 	"testing"
 
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 
-	"github.com/buildpacks/pack/internal/commands"
+	"github.com/YousefHaggyHeroku/pack/internal/commands"
 
 	"github.com/heroku/color"
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 	"github.com/spf13/cobra"
 
-	"github.com/buildpacks/pack/internal/config"
-	ilogging "github.com/buildpacks/pack/internal/logging"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func TestListRegistries(t *testing.T) {

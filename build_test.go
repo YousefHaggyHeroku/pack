@@ -27,10 +27,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/config"
-	"github.com/buildpacks/pack/internal/build"
-	cfg "github.com/buildpacks/pack/internal/config"
-	rg "github.com/buildpacks/pack/internal/registry"
+	"github.com/YousefHaggyHeroku/pack/config"
+	"github.com/YousefHaggyHeroku/pack/internal/build"
+	cfg "github.com/YousefHaggyHeroku/pack/internal/config"
+	rg "github.com/YousefHaggyHeroku/pack/internal/registry"
 
 	"github.com/Masterminds/semver"
 	"github.com/buildpacks/imgutil/fakes"
@@ -41,14 +41,14 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/blob"
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/internal/buildpackage"
-	"github.com/buildpacks/pack/internal/dist"
-	ifakes "github.com/buildpacks/pack/internal/fakes"
-	ilogging "github.com/buildpacks/pack/internal/logging"
-	"github.com/buildpacks/pack/internal/style"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/blob"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	ifakes "github.com/YousefHaggyHeroku/pack/internal/fakes"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestBuild(t *testing.T) {

@@ -11,16 +11,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	cfg "github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/internal/image"
+	cfg "github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/image"
 
 	"github.com/google/go-containerregistry/pkg/v1/empty"
 	"github.com/google/go-containerregistry/pkg/v1/layout"
 	"github.com/google/go-containerregistry/pkg/v1/mutate"
 
-	"github.com/buildpacks/pack/internal/archive"
-	"github.com/buildpacks/pack/internal/blob"
-	"github.com/buildpacks/pack/internal/buildpack"
+	"github.com/YousefHaggyHeroku/pack/internal/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/blob"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
 
 	"github.com/buildpacks/imgutil/fakes"
 	"github.com/buildpacks/lifecycle/api"
@@ -29,13 +29,13 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
+	"github.com/YousefHaggyHeroku/pack/config"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/testmocks"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/config"
-	"github.com/buildpacks/pack/internal/buildpackage"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/logging"
-	h "github.com/buildpacks/pack/testhelpers"
-	"github.com/buildpacks/pack/testmocks"
 )
 
 const buildpackageMetadataTag = `{

@@ -8,22 +8,22 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"github.com/buildpacks/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/image"
+	"github.com/YousefHaggyHeroku/pack/internal/image"
 
-	"github.com/buildpacks/pack/internal/buildpack"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
 
 	"github.com/spf13/cobra"
 
+	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/buildpackage"
 
-	"github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 const inspectBuildpackTemplate = `

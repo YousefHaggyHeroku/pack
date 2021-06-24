@@ -9,10 +9,10 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/paths"
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/paths"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 // Config is a builder configuration file

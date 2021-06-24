@@ -18,13 +18,13 @@ import (
 	"github.com/buildpacks/imgutil"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/builder"
-	"github.com/buildpacks/pack/internal/archive"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/layer"
-	"github.com/buildpacks/pack/internal/stack"
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/layer"
+	"github.com/YousefHaggyHeroku/pack/internal/stack"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 const (
@@ -445,7 +445,7 @@ func validateBuildpacks(stackID string, mixins []string, lifecycleDescriptor Lif
 	for _, bp := range bpsToValidate {
 		bpd := bp.Descriptor()
 
-		// TODO: Warn when Buildpack API is deprecated - https://github.com/buildpacks/pack/issues/788
+		// TODO: Warn when Buildpack API is deprecated - https://github.com/YousefHaggyHeroku/pack/issues/788
 		compatible := false
 		for _, version := range append(lifecycleDescriptor.APIs.Buildpack.Supported, lifecycleDescriptor.APIs.Buildpack.Deprecated...) {
 			compatible = version.Compare(bpd.API) == 0

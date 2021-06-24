@@ -6,8 +6,8 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/config"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/config"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestPullPolicy(t *testing.T) {

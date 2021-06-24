@@ -9,6 +9,13 @@ import (
 	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
+const MetadataLabel = "io.buildpacks.buildpackage.metadata"
+
+type Metadata struct {
+	dist.BuildpackInfo
+	Stacks []dist.Stack `toml:"stacks" json:"stacks"`
+}
+
 type Package interface {
 	Label(name string) (value string, err error)
 	GetLayer(diffID string) (io.ReadCloser, error)

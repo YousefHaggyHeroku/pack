@@ -19,10 +19,10 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/build"
-	"github.com/buildpacks/pack/internal/build/fakes"
-	ilogging "github.com/buildpacks/pack/internal/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/build"
+	"github.com/YousefHaggyHeroku/pack/internal/build/fakes"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 // TestLifecycleExecution are unit tests that test each possible phase to ensure they are executed with the proper parameters

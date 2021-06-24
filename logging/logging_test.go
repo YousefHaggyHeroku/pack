@@ -8,9 +8,9 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	ilogging "github.com/buildpacks/pack/internal/logging"
-	"github.com/buildpacks/pack/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestLogging(t *testing.T) {

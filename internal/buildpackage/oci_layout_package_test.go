@@ -11,12 +11,12 @@ import (
 
 	"github.com/buildpacks/lifecycle/api"
 
-	"github.com/buildpacks/pack/internal/archive"
-	"github.com/buildpacks/pack/internal/blob"
-	"github.com/buildpacks/pack/internal/buildpackage"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/fakes"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/blob"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/fakes"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestOCILayoutPackage(t *testing.T) {

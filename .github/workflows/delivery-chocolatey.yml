@@ -45,7 +45,7 @@ jobs:
           ls -R ${{ env.CHOCO_PATH }}
       - name: Download and unzip Pack (Windows)
         run: |
-          url="https://github.com/buildpacks/pack/releases/download/v${{ env.PACK_VERSION }}/pack-v${{ env.PACK_VERSION }}-windows.zip"
+          url="https://github.com/YousefHaggyHeroku/pack/releases/download/v${{ env.PACK_VERSION }}/pack-v${{ env.PACK_VERSION }}-windows.zip"
           filename=pack.zip
           tools_path=${{ env.CHOCO_PATH }}/tools/
           zip_path="$tools_path/$filename"

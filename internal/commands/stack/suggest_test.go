@@ -8,8 +8,8 @@ import (
 	"github.com/sclevine/spec/report"
 	"github.com/spf13/cobra"
 
-	"github.com/buildpacks/pack/internal/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestStacksSuggestCommand(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/buildpacks/pack/internal/dist"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func CreateBuildpackTar(t *testing.T, tmpDir string, descriptor dist.BuildpackDescriptor) string {

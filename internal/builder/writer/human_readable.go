@@ -8,17 +8,17 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 
-	"github.com/buildpacks/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 
-	pubbldr "github.com/buildpacks/pack/builder"
+	pubbldr "github.com/YousefHaggyHeroku/pack/builder"
 
-	"github.com/buildpacks/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
 
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/logging"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/logging"
 )
 
 const (

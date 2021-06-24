@@ -3,9 +3,9 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/buildpacks/pack/internal/commands/stack"
+	"github.com/YousefHaggyHeroku/pack/internal/commands/stack"
 
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func SuggestStacks(logger logging.Logger) *cobra.Command {

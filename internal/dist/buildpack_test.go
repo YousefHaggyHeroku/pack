@@ -13,9 +13,9 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/archive"
-	"github.com/buildpacks/pack/internal/dist"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestBuildpack(t *testing.T) {
