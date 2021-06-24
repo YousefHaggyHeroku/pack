@@ -11,8 +11,8 @@ import (
 	"github.com/sclevine/spec/report"
 	"gopkg.in/src-d/go-git.v4"
 
-	ilogging "github.com/buildpacks/pack/internal/logging"
-	"github.com/buildpacks/pack/internal/registry"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/registry"
 	"github.com/buildpacks/pack/logging"
 	h "github.com/buildpacks/pack/testhelpers"
 )

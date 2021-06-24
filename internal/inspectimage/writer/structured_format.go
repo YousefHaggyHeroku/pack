@@ -3,10 +3,10 @@ package writer
 import (
 	"fmt"
 
-	"github.com/buildpacks/pack/internal/inspectimage"
+	"github.com/YousefHaggyHeroku/pack/internal/inspectimage"
 
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/style"
 	"github.com/buildpacks/pack/logging"
 )
 

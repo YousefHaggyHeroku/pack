@@ -6,11 +6,11 @@ import (
 
 	"github.com/buildpacks/lifecycle/api"
 
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/builder/fakes"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	pubbldr "github.com/buildpacks/pack/builder"
 	"github.com/buildpacks/pack/config"
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/internal/builder/fakes"
-	"github.com/buildpacks/pack/internal/dist"
 	h "github.com/buildpacks/pack/testhelpers"
 
 	"github.com/heroku/color"

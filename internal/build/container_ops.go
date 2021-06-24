@@ -15,10 +15,10 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/paths"
+	"github.com/YousefHaggyHeroku/pack/internal/paths"
 
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/internal/container"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/container"
 	"github.com/buildpacks/pack/pkg/archive"
 )
 

@@ -14,8 +14,8 @@ import (
 	"github.com/mitchellh/ioprogress"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/paths"
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/paths"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 	"github.com/buildpacks/pack/logging"
 )
 

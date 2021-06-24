@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/dist"
 
 	"github.com/golang/mock/gomock"
 	"github.com/heroku/color"
@@ -16,9 +16,9 @@ import (
 	"github.com/sclevine/spec/report"
 	"github.com/spf13/cobra"
 
-	"github.com/buildpacks/pack/internal/commands"
-	"github.com/buildpacks/pack/internal/commands/testmocks"
-	ilogging "github.com/buildpacks/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/commands"
+	"github.com/YousefHaggyHeroku/pack/internal/commands/testmocks"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	h "github.com/buildpacks/pack/testhelpers"
 )
 

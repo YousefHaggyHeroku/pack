@@ -1,8 +1,8 @@
 package fakes
 
 import (
+	"github.com/YousefHaggyHeroku/pack/internal/inspectimage"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/inspectimage"
 	"github.com/buildpacks/pack/logging"
 )
 

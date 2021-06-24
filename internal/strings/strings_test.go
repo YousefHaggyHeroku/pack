@@ -3,7 +3,7 @@ package strings_test
 import (
 	"testing"
 
-	"github.com/buildpacks/pack/internal/strings"
+	"github.com/YousefHaggyHeroku/pack/internal/strings"
 
 	"github.com/sclevine/spec"
 

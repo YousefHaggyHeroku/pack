@@ -8,20 +8,20 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	strs "github.com/buildpacks/pack/internal/strings"
+	strs "github.com/YousefHaggyHeroku/pack/internal/strings"
 
-	"github.com/buildpacks/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/buildpack"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
 
 	"github.com/spf13/cobra"
 
+	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/buildpackage"
 
-	"github.com/buildpacks/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/buildpacks/pack/logging"
 )
 

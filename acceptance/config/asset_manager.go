@@ -11,11 +11,11 @@ import (
 	"regexp"
 	"testing"
 
+	"github.com/YousefHaggyHeroku/pack/internal/blob"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 	acceptanceOS "github.com/buildpacks/pack/acceptance/os"
-	"github.com/buildpacks/pack/internal/blob"
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/internal/style"
 	h "github.com/buildpacks/pack/testhelpers"
 )
 

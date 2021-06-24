@@ -12,8 +12,8 @@ import (
 	"github.com/sclevine/spec/report"
 	"github.com/spf13/cobra"
 
-	"github.com/buildpacks/pack/internal/commands"
-	ilogging "github.com/buildpacks/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/commands"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	"github.com/buildpacks/pack/logging"
 	h "github.com/buildpacks/pack/testhelpers"
 )

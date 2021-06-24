@@ -8,7 +8,7 @@ import (
 
 	pubbldr "github.com/buildpacks/pack/builder"
 
-	"github.com/buildpacks/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 
 	"github.com/buildpacks/pack/config"
 )

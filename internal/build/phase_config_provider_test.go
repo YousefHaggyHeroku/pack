@@ -14,9 +14,9 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/build"
-	"github.com/buildpacks/pack/internal/build/fakes"
-	ilogging "github.com/buildpacks/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/build"
+	"github.com/YousefHaggyHeroku/pack/internal/build/fakes"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	"github.com/buildpacks/pack/logging"
 	h "github.com/buildpacks/pack/testhelpers"
 )

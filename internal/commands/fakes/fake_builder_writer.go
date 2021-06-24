@@ -1,9 +1,9 @@
 package fakes
 
 import (
+	"github.com/YousefHaggyHeroku/pack/internal/builder/writer"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/builder/writer"
-	"github.com/buildpacks/pack/internal/config"
 	"github.com/buildpacks/pack/logging"
 )
 

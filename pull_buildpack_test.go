@@ -16,11 +16,11 @@ import (
 
 	"github.com/golang/mock/gomock"
 
+	cfg "github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/registry"
 	"github.com/buildpacks/pack"
 	"github.com/buildpacks/pack/config"
-	cfg "github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/internal/logging"
-	"github.com/buildpacks/pack/internal/registry"
 	h "github.com/buildpacks/pack/testhelpers"
 	"github.com/buildpacks/pack/testmocks"
 )

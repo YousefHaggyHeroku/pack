@@ -16,7 +16,7 @@ import (
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
 
-	ilogging "github.com/buildpacks/pack/internal/logging"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	"github.com/buildpacks/pack/logging"
 	h "github.com/buildpacks/pack/testhelpers"
 )

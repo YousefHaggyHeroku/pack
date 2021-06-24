@@ -6,17 +6,17 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/buildpacks/pack/internal/inspectimage"
+	"github.com/YousefHaggyHeroku/pack/internal/inspectimage"
 
-	"github.com/buildpacks/pack/internal/inspectimage/writer"
+	"github.com/YousefHaggyHeroku/pack/internal/inspectimage/writer"
 
 	"github.com/heroku/color"
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/config"
-	ilogging "github.com/buildpacks/pack/internal/logging"
 	h "github.com/buildpacks/pack/testhelpers"
 )
 

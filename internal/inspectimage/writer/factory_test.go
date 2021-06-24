@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/buildpacks/pack/internal/inspectimage/writer"
+	"github.com/YousefHaggyHeroku/pack/internal/inspectimage/writer"
 
 	h "github.com/buildpacks/pack/testhelpers"
 

@@ -1,7 +1,7 @@
 package buildpackage
 
 import (
-	"github.com/buildpacks/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 )
 
 const MetadataLabel = "io.buildpacks.buildpackage.metadata"

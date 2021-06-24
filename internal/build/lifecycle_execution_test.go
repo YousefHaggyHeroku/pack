@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/buildpacks/pack/internal/cache"
+	"github.com/YousefHaggyHeroku/pack/internal/cache"
 
 	"github.com/google/go-containerregistry/pkg/name"
 
@@ -23,9 +23,9 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/build"
-	"github.com/buildpacks/pack/internal/build/fakes"
-	ilogging "github.com/buildpacks/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/build"
+	"github.com/YousefHaggyHeroku/pack/internal/build/fakes"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	h "github.com/buildpacks/pack/testhelpers"
 )
 

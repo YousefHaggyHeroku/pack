@@ -7,7 +7,7 @@ import (
 	ggcrname "github.com/google/go-containerregistry/pkg/name"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 // Buildpack contains information about a buildpack stored in a Registry

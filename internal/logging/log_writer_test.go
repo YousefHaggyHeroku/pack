@@ -10,7 +10,7 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	ilogging "github.com/buildpacks/pack/internal/logging"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
 	h "github.com/buildpacks/pack/testhelpers"
 )
 

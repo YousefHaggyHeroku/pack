@@ -1,10 +1,10 @@
 package writer_test
 
 import (
+	"github.com/YousefHaggyHeroku/pack/internal/builder/writer"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	pubbldr "github.com/buildpacks/pack/builder"
-	"github.com/buildpacks/pack/internal/builder/writer"
-	"github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/internal/dist"
 )
 
 var (

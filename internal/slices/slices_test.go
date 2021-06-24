@@ -5,7 +5,7 @@ import (
 
 	"github.com/sclevine/spec"
 
-	"github.com/buildpacks/pack/internal/slices"
+	"github.com/YousefHaggyHeroku/pack/internal/slices"
 	h "github.com/buildpacks/pack/testhelpers"
 )
 
