@@ -29,7 +29,7 @@ func main() {
 
 // collectImportErrors runs in addition to `gofmt` to check that imports are properly organized in groups:
 // + there's at most 2 blank lines between imports,
-// + the `github.com/buildpacks/pack` imports must come in the last import group.
+// + the `github.com/YousefHaggyHeroku/pack/` imports must come in the last import group.
 func collectImportErrors(root, basePackage string) ([]string, error) {
 	var list []string
 

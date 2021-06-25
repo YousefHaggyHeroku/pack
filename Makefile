@@ -26,7 +26,7 @@ ARCHIVE_NAME=pack-$(PACK_VERSION)
 GOCMD?=go
 GOFLAGS?=
 GOTESTFLAGS?=-v -count=1 -parallel=1
-PACKAGE_BASE=github.com/buildpacks/pack
+PACKAGE_BASE=github.com/YousefHaggyHeroku/pack/
 PACK_GITSHA1=$(shell git rev-parse --short=7 HEAD)
 PACK_VERSION?=0.0.0
 TEST_TIMEOUT?=1200s
@@ -53,7 +53,7 @@ BINDIR:=/usr/bin/
 # so that ubuntu_ppa's may be constructed using default build tools.
 build: out
 	@echo "> Building..."
-	$(GOCMD) build -ldflags "-s -w -X 'github.com/buildpacks/pack.Version=${PACK_VERSION}' -extldflags ${LDFLAGS}" -trimpath -o ./out/$(PACK_BIN) -a ./cmd/pack
+	$(GOCMD) build -ldflags "-s -w -X 'github.com/YousefHaggyHeroku/pack/.Version=${PACK_VERSION}' -extldflags ${LDFLAGS}" -trimpath -o ./out/$(PACK_BIN) -a ./cmd/pack
 
 all: clean verify test build
 

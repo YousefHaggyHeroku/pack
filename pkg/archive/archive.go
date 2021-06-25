@@ -1,5 +1,5 @@
 // Package archive defines a set of functions for reading and writing directories and files in a number of tar formats.
-package archive // import "github.com/buildpacks/pack/pkg/archive"
+package archive // import "github.com/YousefHaggyHeroku/pack/pkg/archive"
 
 import (
 	"archive/tar"

@@ -1,6 +1,6 @@
 package fakes
 
-import "github.com/buildpacks/pack/internal/builder"
+import "github.com/YousefHaggyHeroku/pack/internal/builder"
 
 type FakeLabelManagerFactory struct {
 	BuilderLabelManagerToReturn builder.LabelInspector

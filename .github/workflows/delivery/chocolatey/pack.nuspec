@@ -4,19 +4,19 @@
   <metadata>
     <id>pack</id>
     <version>{{PACK_VERSION}}</version>
-    <packageSourceUrl>https://github.com/buildpacks/pack</packageSourceUrl>
+    <packageSourceUrl>https://github.com/YousefHaggyHeroku/pack/</packageSourceUrl>
     <owners>Cloud Native Buildpack Authors</owners>
 
     <title>pack</title>
     <authors>Cloud Native Buildpack Authors</authors>
-    <projectUrl>https://github.com/buildpacks/pack</projectUrl>
+    <projectUrl>https://github.com/YousefHaggyHeroku/pack/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/buildpacks/artwork/36f02fae98ed82bb3175918796b6cca7acb813df/light-background/logo-light.png</iconUrl>
-    <licenseUrl>https://github.com/buildpacks/pack/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/YousefHaggyHeroku/pack/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/buildpacks/pack</projectSourceUrl>
+    <projectSourceUrl>https://github.com/YousefHaggyHeroku/pack/</projectSourceUrl>
     <docsUrl>https://buildpacks.io/docs/</docsUrl>
     <mailingListUrl>https://lists.cncf.io/g/cncf-buildpacks</mailingListUrl>
-    <bugTrackerUrl>https://github.com/buildpacks/pack/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://github.com/YousefHaggyHeroku/pack/issues</bugTrackerUrl>
     <tags>pack cloud-native-buildpacks cncf</tags>
     <summary>pack is a CLI for building apps using Cloud Native Buildpacks.</summary>
     <description>
@@ -31,7 +31,7 @@ This package installs/upgrades the pack - Buildpacks CLI release.
 
 ## Usage
 
-![Usage](https://github.com/buildpacks/pack/raw/main/resources/pack-build.gif)
+![Usage](https://github.com/YousefHaggyHeroku/pack/raw/main/resources/pack-build.gif)
 
 ## Getting Started
 

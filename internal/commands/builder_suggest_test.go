@@ -10,12 +10,12 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/commands"
-	"github.com/buildpacks/pack/internal/commands/testmocks"
-	ilogging "github.com/buildpacks/pack/internal/logging"
-	"github.com/buildpacks/pack/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/
+	"github.com/YousefHaggyHeroku/pack/internal/commands"
+	"github.com/YousefHaggyHeroku/pack/internal/commands/testmocks"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestSuggestCommand(t *testing.T) {

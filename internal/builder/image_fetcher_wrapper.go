@@ -5,7 +5,7 @@ import (
 
 	"github.com/buildpacks/imgutil"
 
-	pubcfg "github.com/buildpacks/pack/config"
+	pubcfg "github.com/YousefHaggyHeroku/pack/config"
 )
 
 type ImageFetcher interface {

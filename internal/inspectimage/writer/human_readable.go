@@ -7,12 +7,12 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"github.com/buildpacks/pack/internal/inspectimage"
+	"github.com/YousefHaggyHeroku/pack/internal/inspectimage"
 
-	"github.com/buildpacks/pack"
-	strs "github.com/buildpacks/pack/internal/strings"
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/
+	strs "github.com/YousefHaggyHeroku/pack/internal/strings"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 type HumanReadable struct{}

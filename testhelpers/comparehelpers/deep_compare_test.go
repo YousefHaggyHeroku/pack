@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/buildpacks/pack/testhelpers"
-	"github.com/buildpacks/pack/testhelpers/comparehelpers"
+	"github.com/YousefHaggyHeroku/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/testhelpers/comparehelpers"
 
 	"github.com/heroku/color"
 	"github.com/sclevine/spec"

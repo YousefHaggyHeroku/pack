@@ -13,7 +13,7 @@ makedepends=(
 )
 provides=('pack-cli')
 conflicts=('pack-cli')
-source=("${pkgname}::git+https://github.com/buildpacks/pack")
+source=("${pkgname}::git+https://github.com/YousefHaggyHeroku/pack/)
 sha512sums=("SKIP")
 build() {
 	export GOPATH="${srcdir}/go"

@@ -3,9 +3,9 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	builderwriter "github.com/buildpacks/pack/internal/builder/writer"
-	"github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/logging"
+	builderwriter "github.com/YousefHaggyHeroku/pack/internal/builder/writer"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func NewBuilderCommand(logger logging.Logger, cfg config.Config, client PackClient) *cobra.Command {

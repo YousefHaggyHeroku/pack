@@ -9,11 +9,11 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/inspectimage"
-	"github.com/buildpacks/pack/internal/inspectimage/writer"
-	ilogging "github.com/buildpacks/pack/internal/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/
+	"github.com/YousefHaggyHeroku/pack/internal/inspectimage"
+	"github.com/YousefHaggyHeroku/pack/internal/inspectimage/writer"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestJSONBOM(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/buildpacks/pack/acceptance/managers"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/acceptance/managers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 type ImageAssertionManager struct {

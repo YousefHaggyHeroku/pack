@@ -3,11 +3,11 @@ package strings_test
 import (
 	"testing"
 
-	"github.com/buildpacks/pack/internal/strings"
+	"github.com/YousefHaggyHeroku/pack/internal/strings"
 
 	"github.com/sclevine/spec"
 
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestValueOrDefault(t *testing.T) {
