@@ -2,9 +2,9 @@
 
 [![Build results](https://github.com/YousefHaggyHeroku/pack/workflows/build/badge.svg)](https://github.com/YousefHaggyHeroku/pack/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/YousefHaggyHeroku/pack/)](https://goreportcard.com/report/github.com/YousefHaggyHeroku/pack/)
-[![codecov](https://codecov.io/gh/buildpacks/pack/branch/main/graph/badge.svg)](https://codecov.io/gh/buildpacks/pack)
+[![codecov](https://codecov.io/gh/YousefHaggyHeroku/pack/branch/main/graph/badge.svg)](https://codecov.io/gh/YousefHaggyHeroku/pack)
 [![GoDoc](https://godoc.org/github.com/YousefHaggyHeroku/pack/?status.svg)](https://godoc.org/github.com/YousefHaggyHeroku/pack/)
-[![GitHub license](https://img.shields.io/github/license/buildpacks/pack)](https://github.com/YousefHaggyHeroku/pack/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/YousefHaggyHeroku/pack)](https://github.com/YousefHaggyHeroku/pack/blob/main/LICENSE)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4748/badge)](https://bestpractices.coreinfrastructure.org/projects/4748)
 [![Slack](https://img.shields.io/badge/slack-join-ff69b4.svg?logo=slack)](https://slack.buildpacks.io/)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/YousefHaggyHeroku/pack/)
