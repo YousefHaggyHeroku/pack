@@ -10,10 +10,10 @@ import (
 	"github.com/buildpacks/imgutil"
 	"github.com/buildpacks/imgutil/fakes"
 
-	"github.com/buildpacks/pack/internal/archive"
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/internal/dist"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 type FakeImageCreator func(name string, topLayerSha string, identifier imgutil.Identifier) *fakes.Image

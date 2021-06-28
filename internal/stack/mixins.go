@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/buildpacks/pack/internal/stringset"
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/stringset"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 const MixinsLabel = "io.buildpacks.stack.mixins"

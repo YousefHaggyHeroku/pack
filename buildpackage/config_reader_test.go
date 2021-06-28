@@ -10,9 +10,9 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/buildpackage"
-	"github.com/buildpacks/pack/internal/paths"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/buildpackage"
+	"github.com/YousefHaggyHeroku/pack/internal/paths"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestBuildpackageConfigReader(t *testing.T) {

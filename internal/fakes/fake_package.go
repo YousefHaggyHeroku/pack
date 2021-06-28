@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/go-containerregistry/pkg/v1/tarball"
 
-	"github.com/buildpacks/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 )
 
 type Package interface {

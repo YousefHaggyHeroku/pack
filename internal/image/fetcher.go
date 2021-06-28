@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/buildpacks/pack/config"
+	"github.com/YousefHaggyHeroku/pack/config"
 
 	"github.com/buildpacks/imgutil"
 	"github.com/buildpacks/imgutil/local"
@@ -20,8 +20,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 type Fetcher struct {

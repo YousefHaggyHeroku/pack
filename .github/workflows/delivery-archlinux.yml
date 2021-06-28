@@ -39,7 +39,7 @@ jobs:
       - name: Metadata
         id: metadata
         run: |
-          url=https://github.com/buildpacks/pack/archive/v${{ env.PACK_VERSION }}.tar.gz
+          url=https://github.com/YousefHaggyHeroku/pack/archive/v${{ env.PACK_VERSION }}.tar.gz
           filename=pack-${{ env.PACK_VERSION }}.tgz
           fullpath=`pwd`/$filename
 

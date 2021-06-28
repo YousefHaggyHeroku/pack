@@ -1,4 +1,4 @@
-module github.com/buildpacks/pack/tools
+module github.com/YousefHaggyHeroku/pack/tools
 
 go 1.14
 

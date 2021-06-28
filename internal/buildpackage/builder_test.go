@@ -23,11 +23,11 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/buildpackage"
-	"github.com/buildpacks/pack/internal/dist"
-	ifakes "github.com/buildpacks/pack/internal/fakes"
-	h "github.com/buildpacks/pack/testhelpers"
-	"github.com/buildpacks/pack/testmocks"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	ifakes "github.com/YousefHaggyHeroku/pack/internal/fakes"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/testmocks"
 )
 
 func TestPackageBuilder(t *testing.T) {

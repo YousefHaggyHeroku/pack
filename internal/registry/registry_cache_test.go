@@ -16,9 +16,9 @@ import (
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
 
-	ilogging "github.com/buildpacks/pack/internal/logging"
-	"github.com/buildpacks/pack/logging"
-	h "github.com/buildpacks/pack/testhelpers"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestRegistryCache(t *testing.T) {

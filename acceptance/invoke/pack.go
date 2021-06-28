@@ -14,8 +14,8 @@ import (
 
 	"github.com/Masterminds/semver"
 
-	acceptanceOS "github.com/buildpacks/pack/acceptance/os"
-	h "github.com/buildpacks/pack/testhelpers"
+	acceptanceOS "github.com/YousefHaggyHeroku/pack/acceptance/os"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 type PackInvoker struct {

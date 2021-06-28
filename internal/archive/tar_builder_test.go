@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/buildpacks/pack/internal/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/archive"
 
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 
 	"github.com/heroku/color"
 	"github.com/sclevine/spec"

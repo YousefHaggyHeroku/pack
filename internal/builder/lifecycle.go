@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/archive"
 )
 
 // A snapshot of the latest tested lifecycle version values
@@ -24,7 +24,7 @@ type Blob interface {
 }
 
 // Lifecycle is an implementation of the CNB Lifecycle spec
-//go:generate mockgen -package testmocks -destination testmocks/mock_lifecycle.go github.com/buildpacks/pack/internal/builder Lifecycle
+//go:generate mockgen -package testmocks -destination testmocks/mock_lifecycle.go github.com/YousefHaggyHeroku/pack/internal/builder Lifecycle
 type Lifecycle interface {
 	Blob
 	Descriptor() LifecycleDescriptor

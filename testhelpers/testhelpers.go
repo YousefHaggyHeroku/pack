@@ -32,12 +32,12 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/src-d/go-git.v4"
 
-	"github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 
-	"github.com/buildpacks/pack/internal/archive"
-	"github.com/buildpacks/pack/internal/stringset"
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/stringset"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 func RandString(n int) string {

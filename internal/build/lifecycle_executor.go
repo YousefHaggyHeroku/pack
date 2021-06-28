@@ -10,8 +10,8 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/google/go-containerregistry/pkg/name"
 
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 var (

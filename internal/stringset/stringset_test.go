@@ -8,8 +8,8 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/stringset"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/stringset"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestStringSet(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 
 	"github.com/sclevine/spec"
 
-	"github.com/buildpacks/pack/internal/slices"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/slices"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestMapString(t *testing.T) {

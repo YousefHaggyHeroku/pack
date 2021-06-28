@@ -4,12 +4,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	pubcfg "github.com/buildpacks/pack/config"
+	pubcfg "github.com/YousefHaggyHeroku/pack/config"
 
-	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func Rebase(logger logging.Logger, cfg config.Config, client PackClient) *cobra.Command {

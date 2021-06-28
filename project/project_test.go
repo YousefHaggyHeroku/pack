@@ -12,7 +12,7 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestProject(t *testing.T) {

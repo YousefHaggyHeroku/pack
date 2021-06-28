@@ -14,9 +14,9 @@ import (
 	"github.com/buildpacks/imgutil/local"
 	"github.com/buildpacks/imgutil/remote"
 
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 
-	"github.com/buildpacks/pack/config"
+	"github.com/YousefHaggyHeroku/pack/config"
 
 	"github.com/Masterminds/semver"
 	"github.com/buildpacks/imgutil"
@@ -25,17 +25,17 @@ import (
 	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/archive"
-	"github.com/buildpacks/pack/internal/build"
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/internal/buildpack"
-	"github.com/buildpacks/pack/internal/buildpackage"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/layer"
-	"github.com/buildpacks/pack/internal/paths"
-	"github.com/buildpacks/pack/internal/stack"
-	"github.com/buildpacks/pack/internal/stringset"
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/build"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/layer"
+	"github.com/YousefHaggyHeroku/pack/internal/paths"
+	"github.com/YousefHaggyHeroku/pack/internal/stack"
+	"github.com/YousefHaggyHeroku/pack/internal/stringset"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 const (

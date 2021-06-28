@@ -3,14 +3,14 @@ package pack
 import (
 	"context"
 
-	"github.com/buildpacks/pack/config"
+	"github.com/YousefHaggyHeroku/pack/config"
 
 	"github.com/buildpacks/lifecycle"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 // RebaseOptions is a configuration struct that controls image rebase behavior.
