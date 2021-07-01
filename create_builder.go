@@ -5,9 +5,13 @@ import (
 	"fmt"
 
 	"github.com/YousefHaggyHeroku/pack/config"
+	"github.com/YousefHaggyHeroku/pack/logging"
 
 	"github.com/Masterminds/semver"
 	"github.com/buildpacks/imgutil"
+	"github.com/buildpacks/imgutil/remote"
+	"github.com/google/go-containerregistry/pkg/authn"
+
 	"github.com/pkg/errors"
 
 	pubbldr "github.com/YousefHaggyHeroku/pack/builder"
@@ -194,6 +198,81 @@ func (c *Client) fetchLifecycle(ctx context.Context, config pubbldr.LifecycleCon
 	}
 
 	return lifecycle, nil
+}
+
+// TODO: Specific error message
+func DownloadBuildpack(buildpackURI string, registryName string, logger logging.Logger) (dist.Buildpack, []dist.Buildpack, error) {
+	locatorType, err := buildpack.GetLocatorType(buildpackURI, []dist.BuildpackInfo{})
+	if err != nil {
+		return nil, nil, err
+	}
+	var mainBP dist.Buildpack
+	var depBPs []dist.Buildpack
+	switch locatorType {
+	case buildpack.PackageLocator:
+		imageName := buildpack.ParsePackageLocator(buildpackURI)
+		pkg, err := remote.NewImage(imageName, authn.DefaultKeychain, remote.FromBaseImage(imageName))
+		if err != nil {
+			return nil, nil, err
+		}
+		mainBP, depBPs, err = buildpackage.ExtractBuildpacks(pkg)
+	case buildpack.RegistryLocator:
+		registry, err := (*Client)(nil).getRegistry(logger, registryName)
+		if err != nil {
+			return nil, nil, errors.Wrapf(err, "invalid registry '%s'", registryName)
+		}
+
+		registryBp, err := registry.LocateBuildpack(buildpackURI)
+		if err != nil {
+			return nil, nil, errors.Wrapf(err, "locating in registry %s", style.Symbol(buildpackURI))
+		}
+		pkg, err := remote.NewImage(registryBp.Address, authn.DefaultKeychain, remote.FromBaseImage(registryBp.Address))
+
+		mainBP, depBPs, err = buildpackage.ExtractBuildpacks(pkg)
+		if err != nil {
+			return nil, nil, errors.Wrapf(err, "extracting from registry %s", style.Symbol(buildpackURI))
+		}
+	case buildpack.URILocator:
+		err := ensureBPSupport(buildpackURI)
+		if err != nil {
+			return nil, nil, err
+		}
+
+		blob, err := Download(buildpackURI)
+		if err != nil {
+			return nil, nil, errors.Wrapf(err, "downloading buildpack from %s", style.Symbol(buildpackURI))
+		}
+
+		isOCILayout, err := buildpackage.IsOCILayoutBlob(blob)
+		if err != nil {
+			return nil, nil, errors.Wrap(err, "inspecting buildpack blob")
+		}
+
+		if isOCILayout {
+			mainBP, depBPs, err = buildpackage.BuildpacksFromOCILayoutBlob(blob)
+			if err != nil {
+				return nil, nil, errors.Wrapf(err, "extracting buildpacks from %s", style.Symbol(buildpackURI))
+			}
+		} /*else {
+			imageOS, err := bldr.Image().OS()
+			if err != nil {
+				return errors.Wrap(err, "getting image OS")
+			}
+			layerWriterFactory, err := layer.NewWriterFactory(imageOS)
+			if err != nil {
+				return errors.Wrapf(err, "get tar writer factory for image %s", style.Symbol(bldr.Name()))
+			}
+
+			mainBP, err = dist.BuildpackFromRootBlob(blob, layerWriterFactory)
+			if err != nil {
+				return errors.Wrapf(err, "creating buildpack from %s", style.Symbol(b.URI))
+			}
+		}*/
+	default:
+		return nil, nil, fmt.Errorf("error reading %s: invalid locator: %s", buildpackURI, locatorType)
+
+	}
+	return mainBP, depBPs, nil
 }
 
 func (c *Client) addBuildpacksToBuilder(ctx context.Context, opts CreateBuilderOptions, bldr *builder.Builder) error {
