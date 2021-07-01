@@ -14,7 +14,7 @@ import (
 
 	"github.com/YousefHaggyHeroku/pack/internal/image"
 
-	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
+	"github.com/YousefHaggyHeroku/pack/buildpack"
 
 	"github.com/spf13/cobra"
 

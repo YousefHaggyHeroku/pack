@@ -11,8 +11,8 @@ import (
 	"github.com/pkg/errors"
 
 	pubbldr "github.com/YousefHaggyHeroku/pack/builder"
+	"github.com/YousefHaggyHeroku/pack/buildpack"
 	"github.com/YousefHaggyHeroku/pack/internal/builder"
-	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
 	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	"github.com/YousefHaggyHeroku/pack/internal/image"

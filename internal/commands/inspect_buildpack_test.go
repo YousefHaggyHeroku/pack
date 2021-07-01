@@ -17,7 +17,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/YousefHaggyHeroku/pack"
-	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
+	"github.com/YousefHaggyHeroku/pack/buildpack"
 	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
 	"github.com/YousefHaggyHeroku/pack/internal/commands"
 	"github.com/YousefHaggyHeroku/pack/internal/commands/testmocks"

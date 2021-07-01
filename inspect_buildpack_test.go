@@ -18,9 +18,9 @@ import (
 	"github.com/google/go-containerregistry/pkg/v1/layout"
 	"github.com/google/go-containerregistry/pkg/v1/mutate"
 
+	"github.com/YousefHaggyHeroku/pack/buildpack"
 	"github.com/YousefHaggyHeroku/pack/internal/archive"
 	"github.com/YousefHaggyHeroku/pack/internal/blob"
-	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
 
 	"github.com/buildpacks/imgutil/fakes"
 	"github.com/buildpacks/lifecycle/api"

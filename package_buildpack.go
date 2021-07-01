@@ -5,9 +5,9 @@ import (
 
 	"github.com/pkg/errors"
 
+	"github.com/YousefHaggyHeroku/pack/buildpack"
 	pubbldpkg "github.com/YousefHaggyHeroku/pack/buildpackage"
 	"github.com/YousefHaggyHeroku/pack/config"
-	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
 	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	"github.com/YousefHaggyHeroku/pack/internal/layer"

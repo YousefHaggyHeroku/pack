@@ -9,7 +9,7 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
+	"github.com/YousefHaggyHeroku/pack/buildpack"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
 	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
