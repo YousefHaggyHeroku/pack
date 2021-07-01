@@ -3,6 +3,7 @@ package pack
 import (
 	"context"
 	"fmt"
+	"io/ioutil"
 
 	"github.com/YousefHaggyHeroku/pack/config"
 	"github.com/YousefHaggyHeroku/pack/logging"
@@ -16,6 +17,7 @@ import (
 
 	pubbldr "github.com/YousefHaggyHeroku/pack/builder"
 	"github.com/YousefHaggyHeroku/pack/buildpack"
+	"github.com/YousefHaggyHeroku/pack/internal/blob"
 	"github.com/YousefHaggyHeroku/pack/internal/builder"
 	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
 	"github.com/YousefHaggyHeroku/pack/internal/dist"
@@ -237,8 +239,9 @@ func DownloadBuildpack(buildpackURI string, registryName string, logger logging.
 		if err != nil {
 			return nil, nil, err
 		}
-
-		blob, err := Download(buildpackURI)
+		cacheDir, err := ioutil.TempDir("", "cache")
+		downloader := blob.NewDownloader(logging.New(ioutil.Discard), cacheDir)
+		blob, err := downloader.Download(context.TODO(), buildpackURI)
 		if err != nil {
 			return nil, nil, errors.Wrapf(err, "downloading buildpack from %s", style.Symbol(buildpackURI))
 		}
@@ -253,21 +256,19 @@ func DownloadBuildpack(buildpackURI string, registryName string, logger logging.
 			if err != nil {
 				return nil, nil, errors.Wrapf(err, "extracting buildpacks from %s", style.Symbol(buildpackURI))
 			}
-		} /*else {
-			imageOS, err := bldr.Image().OS()
-			if err != nil {
-				return errors.Wrap(err, "getting image OS")
-			}
+		} else {
+			//TODO: Understand this, imageOs probably shouldn't always be linux :P
+			imageOS := "linux"
 			layerWriterFactory, err := layer.NewWriterFactory(imageOS)
 			if err != nil {
-				return errors.Wrapf(err, "get tar writer factory for image %s", style.Symbol(bldr.Name()))
+				return nil, nil, errors.Wrapf(err, "get tar writer factory for imageOS %s", imageOS)
 			}
 
 			mainBP, err = dist.BuildpackFromRootBlob(blob, layerWriterFactory)
 			if err != nil {
-				return errors.Wrapf(err, "creating buildpack from %s", style.Symbol(b.URI))
+				return nil, nil, errors.Wrapf(err, "creating buildpack from %s", style.Symbol(buildpackURI))
 			}
-		}*/
+		}
 	default:
 		return nil, nil, fmt.Errorf("error reading %s: invalid locator: %s", buildpackURI, locatorType)
 
