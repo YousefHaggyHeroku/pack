@@ -26,8 +26,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/oauth2"
 
-	"github.com/buildpacks/pack/blob"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/blob"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 const (

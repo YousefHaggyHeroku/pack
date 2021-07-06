@@ -1,6 +1,6 @@
 package fakes
 
-import "github.com/buildpacks/pack"
+import "github.com/YousefHaggyHeroku/pack"
 
 type FakeBuilderInspector struct {
 	InfoForLocal   *pack.BuilderInfo

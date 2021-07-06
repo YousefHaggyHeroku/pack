@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/buildpacks/pack/internal/inspectimage/writer"
+	"github.com/YousefHaggyHeroku/pack/internal/inspectimage/writer"
 
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 
 	"github.com/heroku/color"
 	"github.com/sclevine/spec"

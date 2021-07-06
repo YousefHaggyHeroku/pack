@@ -3,8 +3,8 @@ package stack
 import (
 	"sort"
 
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/stringset"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/stringset"
 )
 
 // MergeCompatible determines the allowable set of stacks that a combination of buildpacks may run on, given each

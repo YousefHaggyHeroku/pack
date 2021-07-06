@@ -3,11 +3,11 @@ package writer
 import (
 	"fmt"
 
-	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/logging"
 
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 type Factory struct{}

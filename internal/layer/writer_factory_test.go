@@ -8,8 +8,8 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/layer"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/layer"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestTarWriterFactory(t *testing.T) {

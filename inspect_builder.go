@@ -3,11 +3,11 @@ package pack
 import (
 	"errors"
 
-	pubbldr "github.com/buildpacks/pack/builder"
+	pubbldr "github.com/YousefHaggyHeroku/pack/builder"
 
-	"github.com/buildpacks/pack/image"
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/image"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 )
 
 // BuilderInfo is a collection of metadata describing a builder created using pack.

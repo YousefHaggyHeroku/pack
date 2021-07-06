@@ -10,16 +10,16 @@ import (
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/blob"
-	"github.com/buildpacks/pack/image"
-	"github.com/buildpacks/pack/internal/build"
-	"github.com/buildpacks/pack/internal/config"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/blob"
+	"github.com/YousefHaggyHeroku/pack/image"
+	"github.com/YousefHaggyHeroku/pack/internal/build"
+	"github.com/YousefHaggyHeroku/pack/internal/config"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 //go:generate mockgen -package testmocks -destination testmocks/mock_docker_client.go github.com/docker/docker/client CommonAPIClient
 
-//go:generate mockgen -package testmocks -destination testmocks/mock_image_fetcher.go github.com/buildpacks/pack ImageFetcher
+//go:generate mockgen -package testmocks -destination testmocks/mock_image_fetcher.go github.com/YousefHaggyHeroku/pack ImageFetcher
 
 // ImageFetcher is an interface representing the ability to fetch local and images.
 type ImageFetcher interface {
@@ -35,7 +35,7 @@ type ImageFetcher interface {
 	Fetch(ctx context.Context, name string, options image.FetchOptions) (imgutil.Image, error)
 }
 
-//go:generate mockgen -package testmocks -destination testmocks/mock_downloader.go github.com/buildpacks/pack Downloader
+//go:generate mockgen -package testmocks -destination testmocks/mock_downloader.go github.com/YousefHaggyHeroku/pack Downloader
 
 // Downloader is an interface for collecting both remote and local assets.
 type Downloader interface {
@@ -44,7 +44,7 @@ type Downloader interface {
 	Download(ctx context.Context, pathOrURI string) (blob.Blob, error)
 }
 
-//go:generate mockgen -package testmocks -destination testmocks/mock_image_factory.go github.com/buildpacks/pack ImageFactory
+//go:generate mockgen -package testmocks -destination testmocks/mock_image_factory.go github.com/YousefHaggyHeroku/pack ImageFactory
 
 // ImageFactory is an interface representing the ability to create a new OCI image.
 type ImageFactory interface {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/buildpacks/imgutil"
 
-	"github.com/buildpacks/pack/image"
+	"github.com/YousefHaggyHeroku/pack/image"
 )
 
 type ImageFetcher interface {

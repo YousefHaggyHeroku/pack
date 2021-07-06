@@ -6,9 +6,9 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/stack"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/stack"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestMerge(t *testing.T) {

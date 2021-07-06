@@ -7,12 +7,12 @@ import (
 
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"github.com/buildpacks/pack/config"
-	"github.com/buildpacks/pack/image"
-	"github.com/buildpacks/pack/internal/buildpack"
-	"github.com/buildpacks/pack/internal/buildpackage"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/config"
+	"github.com/YousefHaggyHeroku/pack/image"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 type BuildpackInfo struct {

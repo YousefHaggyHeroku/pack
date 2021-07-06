@@ -22,5 +22,5 @@ LABEL io.buildpacks.stack.mixins="[\"mixinA\", \"netcat\", \"mixin3\"]"
 
 USER pack
 
-# launcher requires a non-empty PATH to workaround https://github.com/buildpacks/pack/issues/800
+# launcher requires a non-empty PATH to workaround https://github.com/YousefHaggyHeroku/pack/issues/800
 ENV PATH c:\\Windows\\system32;C:\\Windows

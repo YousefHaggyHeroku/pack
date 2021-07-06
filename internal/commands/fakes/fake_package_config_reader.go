@@ -1,7 +1,7 @@
 package fakes
 
 import (
-	pubbldpkg "github.com/buildpacks/pack/buildpackage"
+	pubbldpkg "github.com/YousefHaggyHeroku/pack/buildpackage"
 )
 
 type FakePackageConfigReader struct {

@@ -3,7 +3,7 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func BuilderSuggest(logger logging.Logger, inspector BuilderInspector) *cobra.Command {

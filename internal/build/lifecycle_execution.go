@@ -13,11 +13,11 @@ import (
 	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/builder"
-	"github.com/buildpacks/pack/internal/cache"
-	"github.com/buildpacks/pack/internal/paths"
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/cache"
+	"github.com/YousefHaggyHeroku/pack/internal/paths"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 const (
@@ -345,7 +345,7 @@ func (l *LifecycleExecution) newAnalyze(repoName, networkMode string, publish bo
 		return phaseFactory.New(configProvider), nil
 	}
 
-	// TODO: when platform API 0.2 is no longer supported we can delete this code: https://github.com/buildpacks/pack/issues/629.
+	// TODO: when platform API 0.2 is no longer supported we can delete this code: https://github.com/YousefHaggyHeroku/pack/issues/629.
 	configProvider := NewPhaseConfigProvider(
 		"analyzer",
 		l,

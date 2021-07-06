@@ -10,7 +10,7 @@ const github = new Octokit({auth: mustGetEnvVar('GITHUB_TOKEN')});
 
 releaseNotes(
   github,
-  "buildpacks/pack",
+  "YousefHaggyHeroku/pack",
   mustGetArg(0, "milestone"),
   mustGetArg(1, "config-path")
 )

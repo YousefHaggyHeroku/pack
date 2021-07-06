@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"runtime"
 
-	"github.com/buildpacks/pack/internal/registry"
+	"github.com/YousefHaggyHeroku/pack/internal/registry"
 )
 
 // YankBuildpackOptions is a configuration struct that controls the Yanking a buildpack
