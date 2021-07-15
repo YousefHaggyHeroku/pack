@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/buildpacks/pack/config"
-	"github.com/buildpacks/pack/internal/buildpackage"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/image"
-	"github.com/buildpacks/pack/internal/registry"
+	"github.com/YousefHaggyHeroku/pack/config"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpackage"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/image"
+	"github.com/YousefHaggyHeroku/pack/internal/registry"
 )
 
 // RegisterBuildpackOptions is a configuration struct that controls the

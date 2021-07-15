@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/buildpacks/pack/acceptance/invoke"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/acceptance/invoke"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 type PackageFile struct {

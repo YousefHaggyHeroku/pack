@@ -9,8 +9,8 @@ import (
 	"github.com/buildpacks/lifecycle/api"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/pkg/archive"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/pkg/archive"
 )
 
 const AssumedBuildpackAPIVersion = "0.1"
@@ -30,7 +30,7 @@ func (b *buildpack) Descriptor() BuildpackDescriptor {
 	return b.descriptor
 }
 
-//go:generate mockgen -package testmocks -destination testmocks/mock_buildpack.go github.com/buildpacks/pack/internal/dist Buildpack
+//go:generate mockgen -package testmocks -destination testmocks/mock_buildpack.go github.com/YousefHaggyHeroku/pack/internal/dist Buildpack
 type Buildpack interface {
 	// Open returns a reader to a tar with contents structured as per the distribution spec
 	// (currently '/cnbs/buildpacks/{ID}/{version}/*', all entries with a zeroed-out

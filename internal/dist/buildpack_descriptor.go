@@ -7,8 +7,8 @@ import (
 
 	"github.com/buildpacks/lifecycle/api"
 
-	"github.com/buildpacks/pack/internal/stringset"
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/stringset"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 type BuildpackDescriptor struct {

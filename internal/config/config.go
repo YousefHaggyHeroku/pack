@@ -7,11 +7,11 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
 )
 
 type Config struct {
-	// Deprecated: Use DefaultRegistryName instead. See https://github.com/buildpacks/pack/issues/747.
+	// Deprecated: Use DefaultRegistryName instead. See https://github.com/YousefHaggyHeroku/pack/issues/747.
 	DefaultRegistry     string            `toml:"default-registry-url,omitempty"`
 	DefaultRegistryName string            `toml:"default-registry,omitempty"`
 	DefaultBuilder      string            `toml:"default-builder-image,omitempty"`

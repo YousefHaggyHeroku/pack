@@ -17,11 +17,11 @@ import (
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/config"
-	ilogging "github.com/buildpacks/pack/internal/logging"
-	pname "github.com/buildpacks/pack/internal/name"
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/config"
+	ilogging "github.com/YousefHaggyHeroku/pack/internal/logging"
+	pname "github.com/YousefHaggyHeroku/pack/internal/name"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 // FetcherOption is a type of function that mutate settings on the client.

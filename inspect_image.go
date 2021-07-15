@@ -10,9 +10,9 @@ import (
 	"github.com/buildpacks/lifecycle/platform"
 	"github.com/pkg/errors"
 
-	"github.com/buildpacks/pack/config"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/image"
+	"github.com/YousefHaggyHeroku/pack/config"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/image"
 )
 
 // ImageInfo is a collection of metadata describing

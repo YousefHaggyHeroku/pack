@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/buildpacks/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
 
-	"github.com/buildpacks/pack/internal/stack"
+	"github.com/YousefHaggyHeroku/pack/internal/stack"
 )
 
 type LabelManager struct {

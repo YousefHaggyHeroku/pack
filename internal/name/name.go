@@ -5,8 +5,8 @@ import (
 
 	gname "github.com/google/go-containerregistry/pkg/name"
 
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 func TranslateRegistry(name string, registryMirrors map[string]string, logger logging.Logger) (string, error) {

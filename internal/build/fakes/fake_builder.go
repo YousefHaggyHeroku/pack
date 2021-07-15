@@ -6,8 +6,8 @@ import (
 	ifakes "github.com/buildpacks/imgutil/fakes"
 	"github.com/buildpacks/lifecycle/api"
 
-	"github.com/buildpacks/pack/internal/build"
-	"github.com/buildpacks/pack/internal/builder"
+	"github.com/YousefHaggyHeroku/pack/internal/build"
+	"github.com/YousefHaggyHeroku/pack/internal/builder"
 )
 
 type FakeBuilder struct {

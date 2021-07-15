@@ -7,8 +7,8 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/buildpack"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/buildpack"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestParseName(t *testing.T) {

@@ -9,11 +9,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/buildpacks/pack"
-	"github.com/buildpacks/pack/internal/build"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/style"
-	"github.com/buildpacks/pack/logging"
+	"github.com/YousefHaggyHeroku/pack"
+	"github.com/YousefHaggyHeroku/pack/internal/build"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	"github.com/YousefHaggyHeroku/pack/logging"
 )
 
 // BuildpackNewFlags define flags provided to the BuildpackNew command

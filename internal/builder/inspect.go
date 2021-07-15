@@ -6,10 +6,10 @@ import (
 	"sort"
 	"strings"
 
-	pubbldr "github.com/buildpacks/pack/builder"
-	"github.com/buildpacks/pack/config"
-	"github.com/buildpacks/pack/internal/dist"
-	"github.com/buildpacks/pack/internal/image"
+	pubbldr "github.com/YousefHaggyHeroku/pack/builder"
+	"github.com/YousefHaggyHeroku/pack/config"
+	"github.com/YousefHaggyHeroku/pack/internal/dist"
+	"github.com/YousefHaggyHeroku/pack/internal/image"
 )
 
 type Info struct {

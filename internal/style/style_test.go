@@ -7,8 +7,8 @@ import (
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
-	"github.com/buildpacks/pack/internal/style"
-	h "github.com/buildpacks/pack/testhelpers"
+	"github.com/YousefHaggyHeroku/pack/internal/style"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 )
 
 func TestStyle(t *testing.T) {

@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/buildpacks/pack/acceptance/assertions"
+	"github.com/YousefHaggyHeroku/pack/acceptance/assertions"
 
-	h "github.com/buildpacks/pack/testhelpers"
+	h "github.com/YousefHaggyHeroku/pack/testhelpers"
 
-	"github.com/buildpacks/pack/acceptance/invoke"
+	"github.com/YousefHaggyHeroku/pack/acceptance/invoke"
 )
 
 type PackageImage struct {
